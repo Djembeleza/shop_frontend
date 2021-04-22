@@ -6,7 +6,7 @@ import { addToCartURL, productListURL } from '../constants';
 
 function ItemList() {
     const [items, setItems] = useState([]);
-    const [loading, setLoading] = useState(True);
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
         getItems()
     }, []);
@@ -15,7 +15,7 @@ function ItemList() {
         fetch(productListURL)
             .then(response => response.json())
             .then(json => setItems(json))
-            
+
     };
 
     function addToCart(itemID) {
