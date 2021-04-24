@@ -14,7 +14,7 @@ const Item = ({ title, price, image, addToCart, id }) => {
             </p>
 
             <div className="w-full flex flex-row justify-around">
-                <button className="border-2 border-green-700 duration-75 ease-linear bg-green-400 text-green-800 px-3 rounded-xl py-2 shadow-lg font-semibold hover:bg-green-900 hover:text-green-100" onClick={() => addToCart(id)}>Click Here <FontAwesomeIcon icon={faShoppingBasket}/> <FontAwesomeIcon icon={faShoppingCart} /></button>
+                <button className="border-2 border-green-700 duration-75 ease-linear bg-green-400 text-green-800 px-3 rounded-xl py-2 shadow-lg font-semibold hover:bg-green-900 hover:text-green-100" onClick={() => addToCart(id)}>Click Here <FontAwesomeIcon icon={faShoppingBasket} /></button>
             </div>
         </div>
     )

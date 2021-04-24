@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="bg-green-900 min-h-screen overflow-x-hidden">
       <Nav />
-      <ItemList />
     </div>
   );
 }
